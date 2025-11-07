@@ -49,6 +49,10 @@ public class ForLoopLab {
             }
             System.out.println(line);
         }
+
+        //1. We use i < word.length because i <= word.length would do another cycle when i already equals word.length.
+        //2. In the ladder, the inner loop runs row times because it starts when star = 1 and stops when star <= row.
+        //3. A for loop is better than a while loop when you need to control the number of times a loop occurs.
     }
 }
 
